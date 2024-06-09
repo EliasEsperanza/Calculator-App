@@ -16,7 +16,7 @@ export function Hermite() {
             <Link className="hover:underline" href="/">
               Home
             </Link>
-            <Link className="hover:underline" href="#">
+            <Link className="hover:underline" href="/runge">
               Metodos de Runge-Kutta
             </Link>
           </nav>
