@@ -7,25 +7,25 @@ export function Runge() {
       <header className="bg-gray-900 text-white py-4 px-6">
         <div className="container mx-auto flex justify-between items-center">
           <Link className="text-lg font-bold" href="/runge">
-            Runge-Kutta Calculator
+            Runge-Kutta
           </Link>
           <nav className="flex gap-4">
             <Link className="hover:underline" href="/">
-              Home
+              Inicio
             </Link>
             <Link className="hover:underline" href="/hermite">
-              Hermite Interpolation
+              Interpolacion de Hermite
             </Link>
           </nav>
         </div>
       </header>
       <main className="flex-1 py-12 px-6">
         <div className="container mx-auto max-w-3xl">
-          <h1 className="text-3xl font-bold mb-8">Runge-Kutta Method Calculator</h1>
+          <h1 className="text-3xl font-bold mb-8">Runge-Kutta</h1>
           <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
             <div className="mb-4">
               <label className="block text-gray-700 font-bold mb-2" htmlFor="function">
-                Differential Equation
+                Ecuacion diferencial
               </label>
               <textarea
                 className="shadow appearance-none border border-gray-200 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline dark:border-gray-800"
@@ -35,7 +35,7 @@ export function Runge() {
             </div>
             <div className="mb-4">
               <label className="block text-gray-700 font-bold mb-2" htmlFor="initialCondition">
-                Initial Condition
+                Condicion Inicial
               </label>
               <input
                 className="shadow appearance-none border border-gray-200 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline dark:border-gray-800"
@@ -45,7 +45,7 @@ export function Runge() {
             </div>
             <div className="mb-4">
               <label className="block text-gray-700 font-bold mb-2" htmlFor="initialValue">
-                Initial Value
+                Valor Inicial
               </label>
               <input
                 className="shadow appearance-none border border-gray-200 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline dark:border-gray-800"
@@ -55,7 +55,7 @@ export function Runge() {
             </div>
             <div className="mb-4">
               <label className="block text-gray-700 font-bold mb-2" htmlFor="timeInterval">
-                Time Interval
+                Intervalo de tiempo
               </label>
               <div className="flex gap-4">
                 <input
@@ -72,7 +72,7 @@ export function Runge() {
             </div>
             <div className="mb-4">
               <label className="block text-gray-700 font-bold mb-2" htmlFor="stepSize">
-                Step Size
+                Numero de pasos
               </label>
               <input
                 className="shadow appearance-none border border-gray-200 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline dark:border-gray-800"
@@ -84,21 +84,21 @@ export function Runge() {
               <Button
                 className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
                 type="submit">
-                Calculate
+                Calcular
               </Button>
             </div>
           </form>
           <div className="shadow-md rounded px-8 pt-6 pb-8 mb-4">
-            <h2 className="text-2xl font-bold mb-4">Results</h2>
+            <h2 className="text-2xl font-bold mb-4">Resultado</h2>
             <div className="space-y-4">
               <div>
-                <h3 className="font-bold">Solution</h3>
-                <p>The solution to the differential equation is:</p>
+                <h3 className="font-bold">Solucion</h3>
+                <p>La solucion para la ecuacion diferencial es:</p>
                 <pre className="bg-gray-200 p-4 rounded" />
               </div>
               <div>
-                <h3 className="font-bold">Plot</h3>
-                <p>The plot of the solution is:</p>
+                <h3 className="font-bold">Grafica</h3>
+                <p>La grafica de la solucion es:</p>
                 <div className="h-64 bg-gray-200 rounded" />
               </div>
             </div>
@@ -107,7 +107,7 @@ export function Runge() {
       </main>
       <footer className="bg-gray-900 text-white py-4 px-6">
         <div className="container mx-auto text-center">
-          <p>© 2023 Runge-Kutta Calculator. All rights reserved.</p>
+          <p>©Runge-Kutta</p>
         </div>
       </footer>
     </div>)
